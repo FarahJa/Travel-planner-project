@@ -1,0 +1,138 @@
+
+#print, #clear{
+	width: 20%;
+	height:50px;
+	color: black;
+	font-size: 1.2em;
+ 	margin-bottom:10px;
+  	margin-top: 2%;
+	margin-left: 45%;
+	font-family: $text-font;
+	box-shadow: 0px 10px 15px $button-shadow;
+	border-radius: 5%;
+	background-color: whitesmoke;	
+}
+
+#clear{
+	background: $button-color;
+	color: white;
+	margin-left:3%;
+}
+
+#print:hover{
+	box-shadow: none;
+}
+
+#clear:hover{
+	box-shadow: none;
+}
+
+span{
+	font-family: $head-font;
+	font-size: 1.1em;	
+}
+
+p span{
+	background-color: whitesmoke;
+	color: black;
+}
+
+dialog{
+	height: 77vh;
+	width:70vw;
+	border: none;
+}
+
+#result{
+	height: 98%;
+	width:100%;
+	margin: auto;
+	border-radius: 4px;
+	box-shadow:0 1px 2px $shadow-one, 0 3px 6px $shadow-one,
+	0 4px 8px $shadow-two, 0 8px 16px $shadow-one,
+	0 16px 32px $shadow-one, 0 32px 64px $shadow-one;
+	display: flex;
+	align-items: center;
+}
+
+#result_box{
+	height:100%;
+	width:100%;
+	margin: auto;
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#img_box{
+	width: 30%;
+	height: 86%;
+	float: left;
+	background-color: white;
+	text-align: center;
+	border-right: 1px solid grey;
+}
+
+#flag_box{
+	height:10%;
+	width:100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#city_img{
+	display: block;
+	margin: auto;
+	margin-left: 5px;
+	width: 95%;
+	height: 96%;
+}
+
+#flag{
+	width:17%;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+}
+
+
+#result_content{
+	width: 70%;
+	height: 86%;
+	float: right;
+	background: white;
+}
+
+#result_content p{
+  	font-family: $head-font;
+	padding-left: 6%;
+	padding-top:1%;
+	padding-bottom: 3.5%;
+	font-size: 1.3em;
+}
+
+
+
+@media (max-width:1000px) and (min-width:500px) {
+	dialog{
+		width: 85vw;
+		height: 78vh;
+	}
+}
+
+@media only screen and (max-width:700px){
+	dialog{
+		width: 85vw;
+		height: 85vh;
+		margin: auto;
+	}
+
+	p span{
+		font-size: 1em;
+	}
+
+	#print, #clear{
+		width: 40%;
+		margin-left:4%;
+	}
+}
