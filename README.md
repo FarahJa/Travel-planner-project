@@ -44,3 +44,5 @@ Run `npm run test`
 ### Results
 
 ![result1](result1.png)
+![result2](result2.png)
+![result3](result3.png)
